@@ -50,9 +50,14 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/datatables.net-dt/css/jquery.dataTables.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,5 +124,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "61858ac2-ebf8-4fad-8389-667e4a0879ed"
   }
 }
